@@ -16,7 +16,7 @@ for(var i=0; i<agesArray.length; i++){
     sum = sum + agesArray[i];
 }
 average=sum/agesArray.length
-console.log("The average age is:" average)
+console.log("The average age is:", average)
 //28.333
 
 
