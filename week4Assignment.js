@@ -103,7 +103,7 @@ var ave1=0
 for(var i=0; i<array1.length; i++){
     ave1 = ave1 + array1[i];
 }
-averageSingles=ave1/array1.length
+array1=ave1/array1.length
 let array2=[14, 23, 25, 55, 70]
 var ave2=0
 for(var i=0; i<array2.length; i++){
