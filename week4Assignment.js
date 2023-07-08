@@ -17,6 +17,7 @@ for(var i=0; i<agesArray.length; i++){
 }
 average=sum/agesArray.length
 console.log("The average age is:" average)
+//28.333
 
 
 //2a. map method- creating a new array w/ new elements from every element in original array
@@ -44,6 +45,7 @@ let nameLengths= names.map(function(element){
     return element.length;
 })
 console.log(nameLengths)
+//20 (added 3, 5, 5, 4, 3)//
 
 //6.Write a loop to iterate over the nameLengths array and calculate the sum of all the elements in the array.
 sum=0
@@ -82,6 +84,7 @@ function isGreaterThan100(numbers){
         }
     }
 } console.log(isGreaterThan100(numbers))
+//total was 105
 
 //10. Write a function that takes an array of numbers and returns
 // the average of all the elements in the array.
@@ -118,14 +121,14 @@ if (array1>array2){
     return false
 }
 } console.log("Is array1 greater than array2?", averages(array1,array2))
+//array1=35  array2=37.4
 
 
 
 //12.Write a function called willBuyDrink that takes a boolean 
 //isHotOutside, and a number moneyInPocket, and returns true if
 // it is hot outside and if moneyInPocket is greater than 10.50
-let isHotOutside=true
-let moneyInPocket=18
+
 function willBuyDrink(isHotOutside, moneyInPocket){
 if((isHotOutside) && (moneyInPocket > 10.50)){
     return true;
@@ -134,7 +137,7 @@ if((isHotOutside) && (moneyInPocket > 10.50)){
 }
 }
 //Printing willBuyDrink function
-console.log("Will Buy a Drink:", willBuyDrink(isHotOutside,moneyInPocket))
+console.log("Will Buy a Drink:", willBuyDrink(true,10))
 
 
 
