@@ -16,7 +16,7 @@ for(var i=0; i<agesArray.length; i++){
     sum = sum + agesArray[i];
 }
 average=sum/agesArray.length
-console.log(average)
+console.log("The average age is:" average)
 
 
 //2a. map method- creating a new array w/ new elements from every element in original array
